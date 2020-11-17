@@ -29,7 +29,6 @@ button {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    /* width: auto; */
     font-size: large;
 }
 
@@ -57,15 +56,14 @@ button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* width: auto; */
 }
 
 .message {
     border: 2px solid red;
     display: flex;
     flex-wrap: wrap;
-
 }
+
 
 time{
     border: 2px solid black;
