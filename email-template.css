@@ -1,17 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
 #container {
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
 
 button {
     background-color: orange;
+    border-radius: 5px;
     color: white;
+    height: 35px;
+    margin-bottom: 25px;
     
 }
 
 #left {
     background-color: rgb(111, 78, 55);
     color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* width: auto; */
+    font-size: large;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.greeting i {
+    height: 100px;
+    font-size: 50px;
+    padding-right: 10px;
+    align-items: flex-end;
+    
+}
+
+#left h1 {
+    border: 1px red solid;
+        
 }
 
 #middle {
@@ -19,6 +57,7 @@ button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    /* width: auto; */
 }
 
 .message {
