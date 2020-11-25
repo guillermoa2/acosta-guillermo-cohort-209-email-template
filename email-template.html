@@ -9,86 +9,94 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
-    <div id="container">    
-        <div id="left">
-            <div class="greeting">
-                <i class="fa fa-user-circle"></i>
-                <h3>Welcome, Guillermo!</h3>
-            </div>
-            
-            <button>COMPOSE</button>
-
-            <ul class="menu" type=none>
-                <li>Inbox (1)</li>
-                <li>Tagged</li>
-                <li>Important</li>
-                <li>Sent Mail</li>
-                <li>Drafts</li>
-                <li>Trash</li>
-            </ul>
-        </div>
-
-        <div id="middle">
-            <input type="search" placeholder= "Search for emails " >
-            
-            
-            <div class="message">
-
-                <div class="message-header">
-                 <h2>LinkedIn</h2>
-                <time>2:45pm</time>   
+    <div id="email-template">
+        <div class="row">
+        
+            <div id="nav">
+                <div class="greeting">
+                    <i class="fa fa-user-circle"></i>
+                    <h3>Welcome, Guillermo!</h3>
                 </div>
                 
-                <p>You have a new connection request.</p>
+                <button>COMPOSE</button>
+
+                <ul class="menu" type=none>
+                    <li>Inbox (1)</li>
+                    <li>Tagged</li>
+                    <li>Important</li>
+                    <li>Sent Mail</li>
+                    <li>Drafts</li>
+                    <li>Trash</li>
+                </ul>
             </div>
 
-            <div class="message">
-
-                <div class="message-header">
-                <h2>Michael Scott Daily Quests</h2>
-                <time>Jul 3, 2020</time>
-                </div>
-
-                <p>I'm optimistic because everyday I get a little more desp...</p>
-            </div>
-
-            <div class="message">
+            <div id="conversations">
+                <i class="fa fa-search"></i>
+                <input type="search" placeholder= "Search for emails " >
                 
-                <div class="message-header">
-                <h2>LaMar Software</h2>
-                <time>Feb 9, 2020</time>
+                
+                <div class="message">
+
+                    <div class="message-header">
+                    <h5>LinkedIn</h5>
+                    <time>2:45pm</time>   
+                    </div>
+                    
+                    <p>You have a new connection request.</p>
                 </div>
 
-                <p>Learn how you can give us money by calling (209) 322 7...</p>
+                <div class="message">
+
+                    <div class="message-header">
+                    <h5>Michael Scott Daily Quests</h5>
+                    <time>Jul 3, 2020</time>
+                    </div>
+
+                    <p>I'm optimistic because everyday I get a little more desp...</p>
+                </div>
+
+                <div class="message">
+
+                    <div class="message-header">
+                    <h5>LaMar Software</h5>
+                    <time>Feb 9, 2020</time>
+                    </div>
+
+                    <p>Learn how you can give us money by calling (209) 322 7...</p>
+                </div>
+
             </div>
 
-        </div>
+            <div id="preview">
+                <p>To: taylor@lamarsoftware.io</p>
+                <p>From: re-reply@theofficenbc.com</p>
+                <h1>Michael Scott Daily Quotes</h1>
+                <i class="fa fa-trash"></i>
+                <i class="fa fa-reply"></i>
+                <i class="fa fa-flag"></i>
 
-        <div id="right">
-            <p>To: taylor@lamarsoftware.io</p>
-            <p>From: re-reply@theofficenbc.com</p>
-            <h1>Michael Scott Daily Quotes</h1>
-            <p>
-                "Friends joke with one another. 'Hey, you're poor.' 'Hey, your mom's dead. That's what friends do."
+                <p>
+                    "Friends joke with one another. 'Hey, you're poor.' 'Hey, your mom's dead. That's what friends do." 
+                    
+                    "It's a good thing Russia doesn't exist anymore."
 
-                "It's a good thing Russia doesn't exist anymore."
+                    "You cheated on me? When I specifically asked you not to?"
 
-                "You cheated on me? When I specifically asked you not to?"
+                    "It just seems awfully mean. But sometimes, the ends justify the mean."
 
-                "It just seems awfully mean. But sometimes, the ends justify the mean."
-
-                "Reverse psychology is an awesome tool. I don't know if you guys know about it, but,
-                basically, you  make someone think the opposite of what you believe, and that trick them
-                into doing something stupid. Works like a charm."
-            </p>
-            
-            
+                    "Reverse psychology is an awesome tool. I don't know if you guys know about it, but,
+                    basically, you  make someone think the opposite of what you believe, and that trick them
+                    into doing something stupid. Works like a charm."
+                </p>
+               
+                
 
 
 
-        </div>
+            </div>
 
         
+        </div>   
 
     </div>
 </body>
