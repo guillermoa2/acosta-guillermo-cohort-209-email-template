@@ -144,3 +144,11 @@ button {
 #reply {
     margin: 0;
 }
+
+.menu :hover {
+    color: silver;
+}
+
+#conversations :hover {
+    background-color: white;
+}
